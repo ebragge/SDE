@@ -1,0 +1,76 @@
+﻿<Page
+    x:Class="SDE.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SDE"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+                
+                <RowDefinition Height="50" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="140"/>
+                <ColumnDefinition Width="140"/>
+                <ColumnDefinition Width="140"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="AppStatus" Grid.Row="0" Grid.ColumnSpan="10" Grid.Column="1" FontSize="14"/>
+            <TextBlock x:Name="label1" Grid.Row="1" Grid.Column="1" FontSize="14"/>
+            <TextBlock x:Name="label2" Grid.Row="1" Grid.Column="2" FontSize="14"/>
+            <TextBlock x:Name="label3" Grid.Row="1" Grid.Column="3" FontSize="14"/>
+            <TextBlock x:Name="label4" Grid.Row="1" Grid.Column="4" FontSize="14"/>
+            <TextBlock x:Name="label5" Grid.Row="1" Grid.Column="5" FontSize="14"/>
+            <TextBlock x:Name="label6" Grid.Row="1" Grid.Column="6" FontSize="14"/>
+            <TextBlock x:Name="label7" Grid.Row="1" Grid.Column="7" FontSize="14"/>
+            <TextBlock x:Name="label8" Grid.Row="1" Grid.Column="8" FontSize="14"/>
+            <TextBlock x:Name="label9" Grid.Row="1" Grid.Column="9" FontSize="14"/>
+            <TextBlock x:Name="label0" Grid.Row="1" Grid.Column="10" FontSize="14"/>
+            
+            <TextBlock x:Name="text1" Grid.Row="2" Grid.Column="1" FontSize="12"/>
+            <TextBlock x:Name="text2" Grid.Row="2" Grid.Column="2" FontSize="12"/>
+            
+            <TextBlock x:Name="text03" Grid.Row="2" Grid.Column="3" FontSize="12"/>
+            <TextBlock x:Name="text04" Grid.Row="2" Grid.Column="4" FontSize="12"/>
+            <TextBlock x:Name="text05" Grid.Row="2" Grid.Column="5" FontSize="12"/>
+            <TextBlock x:Name="text06" Grid.Row="2" Grid.Column="6" FontSize="12"/>
+            <TextBlock x:Name="text07" Grid.Row="2" Grid.Column="7" FontSize="12"/>
+            <TextBlock x:Name="text08" Grid.Row="2" Grid.Column="8" FontSize="12"/>
+
+            <TextBlock x:Name="text13" Grid.Row="3" Grid.Column="3" FontSize="12"/>
+            <TextBlock x:Name="text14" Grid.Row="3" Grid.Column="4" FontSize="12"/>
+            <TextBlock x:Name="text15" Grid.Row="3" Grid.Column="5" FontSize="12"/>
+            <TextBlock x:Name="text16" Grid.Row="3" Grid.Column="6" FontSize="12"/>
+            <TextBlock x:Name="text17" Grid.Row="3" Grid.Column="7" FontSize="12"/>
+            <TextBlock x:Name="text18" Grid.Row="3" Grid.Column="8" FontSize="12"/>
+
+            <TextBlock x:Name="text23" Grid.Row="4" Grid.Column="3" FontSize="12"/>
+            <TextBlock x:Name="text24" Grid.Row="4" Grid.Column="4" FontSize="12"/>
+            <TextBlock x:Name="text25" Grid.Row="4" Grid.Column="5" FontSize="12"/>
+            <TextBlock x:Name="text26" Grid.Row="4" Grid.Column="6" FontSize="12"/>
+            <TextBlock x:Name="text27" Grid.Row="4" Grid.Column="7" FontSize="12"/>
+            <TextBlock x:Name="text28" Grid.Row="4" Grid.Column="8" FontSize="12"/>
+
+            <TextBlock x:Name="text9" Grid.Row="2" Grid.Column="9" FontSize="12"/>
+            
+            <TextBlock x:Name="errorText" Grid.Row="5" Grid.Column="1" FontSize="12" Grid.ColumnSpan="10" Grid.RowSpan="2" TextWrapping="Wrap" LineStackingStrategy="BaselineToBaseline"/>
+            <Canvas x:Name="canvas" Grid.Row="6" Grid.Column="0" Width="1280" Height="800"/>
+        </Grid>
+    </Grid>
+</Page>

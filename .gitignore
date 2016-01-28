@@ -1,0 +1,9 @@
+.vs/
+ARM/
+x64/
+LibIoTHub/bin/
+LibIoTHub/obj/
+SDE.VC.opendb
+SDE.sdf
+SDE/bin/
+SDE/obj/

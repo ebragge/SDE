@@ -1,0 +1,7 @@
+
+[submodule "LibRPi"]
+	path = LibRPi
+	url = https://github.com/ebragge/LibRPi.git
+[submodule "LibAudio"]
+	path = LibAudio
+	url = https://github.com/ebragge/LibAudio.git
